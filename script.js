@@ -1,4 +1,4 @@
-const makeChange = (c) => {
+const makeChange(c){
   // Define the values of each coin
   const quarterValue = 0.25;
   const dimeValue = 0.10;
@@ -13,7 +13,7 @@ const makeChange = (c) => {
   c %= quarterValue;
 
   // Calculate the number of dimes
-  d = Math.floor(c / dimeValue);
+  d = Math.floor(c / dimeValue); 
   c %= dimeValue;
 
   // Calculate the number of nickels
